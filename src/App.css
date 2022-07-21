@@ -1,0 +1,142 @@
+:root {
+  --clr-grey: #3d3d3d;
+  --clr-grey-light: #959188;
+  --clr-grey-lighter: #edecea;
+}
+
+.hero {
+  position: relative;
+  overflow-x: hidden;
+}
+.hero h1{
+   font-size: 3em;
+   text-shadow: 3px 3px 3px black;
+   font-weight: bold;
+}
+
+.hero>.hero-body {
+  position: absolute;
+  font-size: 1em;
+  color: white;
+  top: 25%;
+  left: 20%;
+  z-index: 1000;  
+  text-shadow: 3px 3px 3px black;
+}
+
+.hero-body>button {
+  color: white;
+  background-color: transparent;
+  border: white;
+  border: 2px solid white;
+  padding: 5px 10px;
+  margin-top: 15px;
+  font-weight: bold;
+  transition: all 0.4s;
+}
+
+.hero-body>button:hover {
+  color: black;
+  background-color: white;
+}
+
+.about {
+  min-height: 40vh;
+  padding: 30px 20px;
+  margin:  80px 40px 40px 40px;
+}
+
+.about button {
+  background-color:  white;
+  border: none;
+  margin: 80px ;
+  text-align: center;
+}
+
+.about a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  background-color:white;
+  color: rgb(92, 86, 86);
+  border:2px solid rgb(92, 86, 86);
+}
+.about a:hover{
+  background-color: rgb(92, 86, 86);
+  color: white;
+}
+
+.skills {
+  background-color: var(--clr-grey);
+  color: white;
+  text-align: center;
+  padding: 55px;
+}
+
+.skills h1 {
+  font-size: 50px;
+  text-shadow: 3px 3px 3px black;
+}
+
+.skill-name {
+  background-color: rgb(22, 17, 17);
+  line-height: 30px;
+}
+
+.bg-secondary {
+  background-color: var(--clr-grey-light) !important;
+}
+.portfolio {
+  margin: 40px;
+}
+.card {
+  display: grid;
+  height: 150px;
+  width: 200px;
+  color: white;
+  align-content: center;
+  margin: 20px;
+}
+
+.footer-section {
+  margin-top: 50px;
+  padding: 50px;
+  background-color: var(--clr-grey);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-section button {
+  border: 2px solid white;
+  color: white;
+  padding: 10px 30px;
+  background-color: transparent;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.footer-section button:hover{
+  color: var(--clr-grey);
+  background-color: white;
+
+}
+
+.footer-section p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.left-container p:first-of-type {
+  margin-bottom: 15px;
+}
+
+.social-media {
+  text-align: right;
+}
+
+.social-media .icon {
+  margin: 0px 0px 10px 10px;
+}
